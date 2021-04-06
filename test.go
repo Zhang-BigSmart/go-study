@@ -7,7 +7,7 @@ import (
 
 func main() {
 
-	demo2()
+	demo3()
 }
 
 func demo1() {
@@ -27,4 +27,15 @@ func demo2() {
 	fmt.Println(s)
 	s = append(s)
 	fmt.Println(s)
+}
+
+func demo3() {
+	v1 := 1
+	var v2 = v1
+	fmt.Println(v1)
+	fmt.Println(v2)
+
+	v1 = 2
+	fmt.Println(v1)
+	fmt.Println(v2)
 }
