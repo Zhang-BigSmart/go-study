@@ -32,6 +32,7 @@ func demo2() {
 }
 
 func demo3() {
+<<<<<<< HEAD
 
 	//双向型 chan, 零值 nil
 	var ch chan int
@@ -112,5 +113,4 @@ func demo8() {
 	fmt.Printf("ip 变量存储的指针地址 : %x\n", ip)
 
 	fmt.Printf("*ip 变量的值 : %d\n", *ip)
-
 }
